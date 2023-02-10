@@ -118,6 +118,9 @@ const StyledHeading = styled(Heading)(
       typography: { fontSize },
     },
   }) => css`
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     font-size: ${fontSize.heading4};
     margin-bottom: ${spacing.xs};
   `
