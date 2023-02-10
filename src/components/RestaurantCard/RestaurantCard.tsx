@@ -100,6 +100,7 @@ const Description = styled(Body)`
   margin-bottom: 24px;
   margin: 0;
   overflow: hidden;
+  font-style: italic;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
